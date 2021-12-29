@@ -5,6 +5,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+::selection {
+    background-color: aqua;
+    color: black;
+}
+
 body {
     background-color: #eaeaea;
     display: flex;
