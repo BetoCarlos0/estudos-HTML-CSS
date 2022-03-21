@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+    section {
+        width: 100vw;
+    }
+    
+    .img {
+        display: none;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 530px) {
+    header {
+        margin-bottom: 30px;
+    }
+
+    section {
+        padding: 35px 15px;
+    }
+
+    .info h1 {
+        font-size: 20px;
+    }
+    .info h5, .info p {
+        font-size: 12px;
+    }
+
+    .info p {
+        margin-bottom: 25px;
+    }
+
+    form {
+        width: 100%;
+    }
+    form div {
+        margin: 14px 0px 4rem 0px;
+    }
+    form div input {
+        width: 82%;
+    }
+}
